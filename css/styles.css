@@ -1,10 +1,5 @@
-@font-face {
-  font-family: tusj;
-  src: url(../FFF-Tusj/FFF_Tusj.ttf);
-}
-
 #test {
-  font-family: tusj;
+  font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
   font-size: 1500%;
 }
