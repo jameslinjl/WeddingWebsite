@@ -1,4 +1,7 @@
-#wedding_name { font-family: 'Archistico'; }
+#wedding_name { font-family: 'Archistico';
+                font-size:35px;
+   
+}
 
 .navbar.transparent {
    background: rgba(0,0,0,0.25);
