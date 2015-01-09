@@ -1,29 +1,41 @@
-#wedding_name { font-family: 'Archistico';
-                font-size:35px;
-   
+@font-face {
+  font-family: tusj;
+  src: url(../FFF-Tusj/FFF_Tusj.ttf);
+}
+
+#test {
+  font-family: tusj;
+  color: rgba(50, 80, 220, 0.98);
+  font-size: 1500%;
+}
+
+#wedding_name { 
+  font-family: 'Archistico';
+  font-size:35px;
+  color: rgba(255,255,255,0.95); 
 }
 
 .navbar.transparent {
-   background: rgba(0,0,0,0.25);
+   background: rgba(0,0,0,0.40);
 }
 
 .navbar-brand {
-    color: rgba(255,255,255,0.95);
-    font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  font-weight: 500;
 }
 
 .navbar-myitem {
-    color: rgba(255,255,255,0.95);
-    font-weight: 125;
+  color: rgba(255,255,255,0.95);
+  font-weight: 125;
 }
 
 .icon-bar {
-   background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255,255,255,0.95);
 }
 
 body {
-    background: url(../background.jpg) no-repeat;
-    background-color: rgba(60,250,200, 0.5);
+  background: url(../background.jpg) no-repeat;
+  background-color: rgba(60,250,200, 0.5);
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
