@@ -1,7 +1,13 @@
-#test {
+#test1 {
   font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
   font-size: 1500%;
+}
+
+#test2 {
+  font-family: 'Archistico';
+  color: rgba(50, 80, 220, 0.98);
+  font-size: 300%;
 }
 
 #wedding_name { 
