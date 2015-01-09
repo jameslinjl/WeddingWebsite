@@ -1,6 +1,8 @@
 Things still to be done:
 
-- find the "Anna & Bradley" font
+- find the "Anna & Bradley" font [DONE, 
+    I added the font -- you only will be able to see if it you load the site on a server though 
+    (eg. python -m SimpleHTTPServer)
 - figure out what to do with bottom white space
 - get smooth appearing of text
 - frosting and placement of text
