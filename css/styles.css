@@ -1,23 +1,66 @@
+div.transbox{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p
+{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+
 #test1 {
   font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
-  font-size: 1500%;
+  font-size: 18vw;
+  position: relative;
+  left: 3.5%;
+  /*font-size: 1500%;*/
 }
 
 #test2 {
   font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
-  font-size: 300%;
+  font-size: 4.5vw;
+  position: relative;
+  left: 15%;
+  top: -15%;
+  /*font-size: 300%;*/
 }
 
 #wedding_name { 
   font-family: 'Archistico';
-  font-size:35px;
+  font-size: 3.6vw;
+  /*font-size:35px;*/
   color: rgba(255,255,255,0.95); 
 }
 
+@media all and (max-width: 450px){
+  #wedding_name { 
+    font-family: 'Archistico';
+    font-size: 16px;
+    /*font-size:35px;*/
+    color: rgba(255,255,255,0.95); 
+  }
+}
+
+@media all and (min-width: 1400px){
+  #wedding_name { 
+    font-family: 'Archistico';
+    font-size: 250%;
+    /*font-size:35px;*/
+    color: rgba(255,255,255,0.95); 
+  }
+}
+
 .navbar.transparent {
-   background: rgba(0,0,0,0.40);
+   background: rgba(0,0,0,0.60);
 }
 
 .navbar-brand {
@@ -36,9 +79,10 @@
 
 body {
   background: url(../background.jpg) no-repeat;
-  background-color: rgba(60,250,200, 0.5);
+  background-color: rgb(255,255,255);
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
   background-size: 100% auto;
+  overflow-x: hidden;
 }
