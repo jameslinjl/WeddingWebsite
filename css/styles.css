@@ -12,32 +12,34 @@ div.transbox p
   color: #000000;
 }
 
-
-
-
 #test1 {
   font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
-  font-size: 18vw;
+  font-size: 20vw;
   position: relative;
-  left: 3.5%;
-  /*font-size: 1500%;*/
+  left: 2vw;
+  top: -4vw;
 }
 
 #test2 {
   font-family: 'Archistico';
   color: rgba(50, 80, 220, 0.98);
   font-size: 4.5vw;
+  font-weight: bold;
   position: relative;
-  left: 15%;
-  top: -15%;
-  /*font-size: 300%;*/
+  left: 18.5vw;
+  top: -10vw;
+}
+
+#section1{
+  color: white;
+  position: relative;
+  bottom: -25vw;
 }
 
 #wedding_name { 
   font-family: 'Archistico';
   font-size: 3.6vw;
-  /*font-size:35px;*/
   color: rgba(255,255,255,0.95); 
 }
 
@@ -45,7 +47,6 @@ div.transbox p
   #wedding_name { 
     font-family: 'Archistico';
     font-size: 16px;
-    /*font-size:35px;*/
     color: rgba(255,255,255,0.95); 
   }
 }
@@ -54,7 +55,6 @@ div.transbox p
   #wedding_name { 
     font-family: 'Archistico';
     font-size: 250%;
-    /*font-size:35px;*/
     color: rgba(255,255,255,0.95); 
   }
 }
@@ -78,8 +78,9 @@ div.transbox p
 }
 
 body {
-  background: url(../background.jpg) no-repeat;
-  background-color: rgb(255,255,255);
+  background: url(../background.jpg) no-repeat center top;
+  /*position: fixed;*/
+  background-color: rgb(0,0,0);
 /*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
