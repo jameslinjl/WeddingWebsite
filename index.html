@@ -6,7 +6,11 @@
     <link href="//d27bu0n70kzs4u.cloudfront.net/assets/fonts/archistico-bold-4fdade36f82dc8100cf2818063e30f77.css" media="screen" rel="stylesheet" type="text/css">
     <link href="//d27bu0n70kzs4u.cloudfront.net/assets/fonts/archistico-d59f74fe022ce50fbf146096fdb9cc0a.css" media="screen" rel="stylesheet" type="text/css">
     <link href = "css/bootstrap.min.css" rel = "stylesheet">
+
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <link href = "css/styles.css" rel = "stylesheet">
+
+  
   </head>
 
   <body>
@@ -22,38 +26,40 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" id="wedding_name" href="">Kufferath-Lin Wedding</a>
+      <a class="navbar-brand smoothScroll" id="wedding_name" href="#top">Kufferath-Lin Wedding</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="ourstory" class="navbar-myitem">Our Story</a></li>
-        <li><a href="#" class="navbar-myitem">Engagement</a></li>
-        <li><a href="#" class="navbar-myitem">Wedding Party</a></li>
-        <li><a href="#" class="navbar-myitem">Information</a></li>
-        <li><a href="#" class="navbar-myitem">Registry</a></li>        
+        <li><a href="#ourstory" class="navbar-myitem smoothScroll">Our Story</a></li>
+        <li><a href="#theproposal" class="navbar-myitem smoothScroll">The Proposal</a></li>
+        <li><a href="#weddingparty" class="navbar-myitem smoothScroll">Wedding Party</a></li>
+        <li><a href="#information" class="navbar-myitem smoothScroll">Information</a></li>
+        <li><a href="#registry" class="navbar-myitem smoothScroll">Registry</a></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-  <div> 
+  <div id="top"> 
     <!-- titles -->
     <p id="test1">J & T</p>
     <p id="test2">10.17.15</p>
 
     <!-- create buffer space -->
-    <div class="row top-buffer">
-    <div class="row top-buffer">
-    <div class="row top-buffer">
-    <div class="row top-buffer">
+    <div class="row top-buffer"></div>
+    <div class="row top-buffer"></div>
+    <div class="row top-buffer"></div>
+    <div class="row top-buffer"></div>
 
     <!-- first "our story" section -->
-    <div class="row">
+    <!-- <h3 color="white" position="center">Our Story</h3> -->
+    <div class="row" id="ourstory">
+      <h2 class="sectiontitle">OUR STORY</h2>
       <div class="section col-md-1"></div>
       <div class="section col-md-3">
-        <img class="img-responsive" src="tannijames.png">
+        <img class="img-responsive" src="img/tannijames.png">
       </div>
       <div class="section col-md-7">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
@@ -61,16 +67,189 @@
       <div class="section col-md-1"></div>
     </div>
 
+    <!-- proposal section -->
+    <div class="row top-buffer"></div>
+    <div class="row" id="theproposal">
+      <h2 class="sectiontitle">THE PROPOSAL</h2>
+      <div class="section col-md-1"></div>
+      <div class="section col-md-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+      </div>
+      <div class="section col-md-3">
+        <img class="img-responsive" src="img/proposal.jpg">
+      </div>
+      <div class="section col-md-1"></div>
+    </div>
+
+    <!-- wedding party section 1-->
+    <div class="row top-buffer"></div>
+    <div class="row" id="weddingparty">
+      <h2 class="sectiontitle">WEDDING PARTY</h2>
+      <div class="section col-md-3">
+      <a class="fancybox" href="#xue">
+        <img class="img-responsive img-circle partyimages" src="img/xue.jpg">
+      </a>
+      </div>
+      <div class="section col-md-3">
+            <a class="fancybox" href="#karl">
+        <img class="img-responsive img-circle partyimages" src="img/karl.jpg">
+        </a>
+      </div>
+      <div class="section col-md-3">
+            <a class="fancybox" href="#dasha">
+        <img class="img-responsive img-circle partyimages" src="img/dasha.jpg">
+        </a>
+      </div>
+      <div class="section col-md-3">
+            <a class="fancybox" href="#lilian">
+        <img class="img-responsive img-circle partyimages" src="img/lilian.jpg">
+        </a>
+      </div>
+    </div>
 
 
-    <div class="row top-buffer">
+    <!-- wedding party section 2-->
+    <div class="row top-buffer"></div>
+    <div class="row" id="weddingparty">
+      <div class="section col-md-2">
+        <a class="fancybox" href="#wilson">
+          <img class="img-responsive img-circle partyimages" src="img/wilson.jpg">
+        </a>
+      </div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#ryan">
+          <img class="img-responsive img-circle partyimages" src="img/ryan.jpg">
+        </a>
+      </div>
+      <div class="section col-md-4"></div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#shayna">
+          <img class="img-responsive img-circle partyimages" src="img/shayna.jpg">
+        </a>
+      </div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#grace">
+          <img class="img-responsive img-circle partyimages" src="img/grace.jpg">
+        </a>
+      </div>
+    </div>
+
+    <!-- wedding party section 3-->
+    <div class="row top-buffer"></div>
+    <div class="row" id="weddingparty">
+      <div class="section col-md-2"></div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#luke">
+          <img class="img-responsive img-circle partyimages" src="img/luke.jpg">
+        </a>
+      </div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#xavier">
+          <img class="img-responsive img-circle partyimages" src="img/xavier.jpg">
+        </a>
+      </div>
+
+      <div class="section col-md-2">
+        <a class="fancybox" href="#charlotte">
+          <img class="img-responsive img-circle partyimages" src="img/charlotte.jpg">
+        </a>
+      </div>
+      <div class="section col-md-2">
+        <a class="fancybox" href="#ashley">
+          <img class="img-responsive img-circle partyimages" src="img/ashley.jpg">
+        </a>
+      </div>
+      <div class="section col-md-2"></div>
+    </div>
+
+
+    <div class="row top-buffer"></div>
+    <div class="row" id="information">
+      <h2 class="sectiontitle">INFORMATION</h2>
+      <div class="col-md-2"></div>
+      <div class="section col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row top-buffer"></div>
+    <div class="row" id="registry">
+      <h2 class="sectiontitle">REGISTRY</h2>
+      <div class="col-md-2"></div>
+      <div class="section col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row top-buffer"></div>
+    <div class="row top-buffer"></div>
+    <div class="row top-buffer"></div>
+
   </div>
 
+  <div class="guest-bio" id="xue">
+      <h2>James Xue, Best Man</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+  <div class="guest-bio" id="karl">
+      <h2>Karl Li, Best Man</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+    <div class="guest-bio" id="dasha">
+      <h2>Dasha Korolev, Maid of Honor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+      <div class="guest-bio" id="lilian">
+      <h2>Lilian Chow, Maid of Honor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  <div class="guest-bio" id="wilson">
+      <h2>Wilson Hsu, Groomsman</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+  <div class="guest-bio" id="ryan">
+      <h2>Ryan Bae, Groomsman</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+    <div class="guest-bio" id="shayna">
+      <h2>Shayna Orens, Bridesmaid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+      <div class="guest-bio" id="grace">
+      <h2>Grace Fowler, Bridesmaid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+  <div class="guest-bio" id="luke">
+      <h2>Luke Foster, Groomsman</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+  <div class="guest-bio" id="xavier">
+      <h2>Xavier du Maine, Groomsman</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+    <div class="guest-bio" id="charlotte">
+      <h2>Charlotte Lin, Bridesmaid & Sister of the Groom</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
+      <div class="guest-bio" id="ashley">
+      <h2>Ashley Mendez, Bridesmaid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+  </div>
 
-  
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-  <script src = "js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+
   <script src = "js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
+
+
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
 
   </body>
 </html>

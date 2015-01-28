@@ -1,21 +1,6 @@
-div.transbox{
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity:0.6;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
-}
-div.transbox p
-{
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-
 #test1 {
   font-family: 'Archistico';
-  /*color: rgba(50, 80, 220, 0.98);*/
-  color: rgba(0,0,0,.8);
+  color: rgba(0,0,0,.85);
   font-size: 20vw;
   position: relative;
   left: 2vw;
@@ -24,8 +9,7 @@ div.transbox p
 
 #test2 {
   font-family: 'Archistico';
-  /*color: rgba(50, 80, 220, 0.98);*/
-  color: rgba(0,0,0,.8);
+  color: rgba(0,0,0,.85);
   font-size: 4.5vw;
   font-weight: bold;
   position: relative;
@@ -37,10 +21,15 @@ div.transbox p
   color: white;
 }
 
+.sectiontitle{
+  color: white;
+  text-align: center;
+}
+
 #wedding_name { 
   font-family: 'Archistico';
   font-size: 3.6vw;
-  color: rgba(255,255,255,0.95); 
+  color: rgba(255,255,255,0.95);
 }
 
 @media all and (max-width: 450px){
@@ -78,16 +67,20 @@ div.transbox p
 }
 
 .top-buffer { 
-  margin-top:100px; 
+  margin-top: 7.5vw; 
+}
+
+.partyimages {
+  -webkit-mask-image: radial-gradient(50% 50%, black 65%, transparent 100%);
+}
+
+.guest-bio {
+  display: none;
 }
 
 body {
-  background: url(../background.jpg) no-repeat center top;
-  /*position: fixed;*/
+  background: url(../img/background.jpg) no-repeat center top;
   background-color: rgb(0,0,0);
-/*  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
   background-size: 100% auto;
   overflow-x: hidden;
   max-width: 100%;
