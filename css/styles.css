@@ -61,7 +61,10 @@
 
 .navbar-myitem {
   color: rgba(255,255,255,0.95);
+  font-family: 'josefin_slabregular';
   font-weight: 125;
+  font-size: 1.5vw
+
 }
 
 .icon-bar {
@@ -109,10 +112,11 @@ html{
 }
 
 
-p {
+p, h2 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
     margin: 0 0 15px 15px;
+
 
 }
 
