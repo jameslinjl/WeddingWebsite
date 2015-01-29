@@ -22,29 +22,31 @@
 }
 
 .sectiontitle{
+  font-family: 'josefin_slabregular';
   color: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-#wedding_name { 
+#wedding_name {
   font-family: 'Archistico';
   font-size: 3.6vw;
   color: rgba(255,255,255,0.95);
 }
 
 @media all and (max-width: 450px){
-  #wedding_name { 
+  #wedding_name {
     font-family: 'Archistico';
     font-size: 16px;
-    color: rgba(255,255,255,0.95); 
+    color: rgba(255,255,255,0.95);
   }
 }
 
 @media all and (min-width: 1400px){
-  #wedding_name { 
+  #wedding_name {
     font-family: 'Archistico';
     font-size: 250%;
-    color: rgba(255,255,255,0.95); 
+    color: rgba(255,255,255,0.95);
   }
 }
 
@@ -66,8 +68,8 @@
   background-color: rgba(255,255,255,0.95);
 }
 
-.top-buffer { 
-  margin-top: 7.5vw; 
+.top-buffer {
+  margin-top: 7.5vw;
 }
 
 .partyimages {
@@ -91,3 +93,69 @@ html{
   overflow-x: hidden;
   max-width: 100%;
 }
+
+
+@font-face {
+    font-family: 'josefin_slabregular';
+    src: url('../fonts/josefinslab-regular-webfont.eot');
+    src: url('../fonts/josefinslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/josefinslab-regular-webfont.woff2') format('woff2'),
+         url('../fonts/josefinslab-regular-webfont.woff') format('woff'),
+         url('../fonts/josefinslab-regular-webfont.ttf') format('truetype'),
+         url('../fonts/josefinslab-regular-webfont.svg#josefin_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    margin: 0 0 15px 15px;
+
+}
+
+
+@font-face {
+    font-family: 'gentium_basicregular';
+    src: url('../fonts/genbasr-webfont.eot');
+    src: url('../fonts/genbasr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/genbasr-webfont.woff2') format('woff2'),
+         url('../fonts/genbasr-webfont.woff') format('woff'),
+         url('../fonts/genbasr-webfont.ttf') format('truetype'),
+         url('../fonts/genbasr-webfont.svg#gentium_basicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff'),
+         url('../fonts/quicksand-light-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
