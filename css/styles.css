@@ -17,6 +17,10 @@
   top: -10vw;
 }
 
+.maps{
+  margin: 0 auto;
+}
+
 .section{
   color: white;
 }
@@ -30,7 +34,7 @@
 
 #wedding_name {
   font-family: 'Archistico';
-  font-size: 3.6vw;
+  font-size: 3vw;
   color: rgba(255,255,255,0.95);
 }
 
